@@ -19,6 +19,6 @@
       docker_container:
         name: apache2
         state: started
-        image: ibnuridho/apache-php-custom:0.0.1
+        image: ibnuridho/httpd-docker-jenkins:0.0.1
         published_ports:
           - 8081:80
